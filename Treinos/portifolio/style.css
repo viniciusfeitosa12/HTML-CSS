@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+li {
+    display: block;
+}
+
+#contato{
+    text-align: center;
+    display: block;
+}
+
+img{
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+   
+
+}
+
+body {
+    background: linear-gradient(to bottom, #1a5276, #0e2a47);
+}
+
+h1{
+    color:#f5b314;
+    border: ;
+    font-family: "Poetsen One", sans-serif;
+}
+
+p{
+    color: #f5e827 ;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes
+        ou simplimente aumente e diminua o tamanho do navegador 
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo audio </h1>
+    <p>Vamos aprender a reproduzir audio em HTML</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Inserindo video em hospedagem interna</h1>
+    <p>Esse video esta hospedado em meu proprio servidor</p>
+    <video src="midia/video.mp4" controls autoplay loop></video>
+
+    <a href="https://www.google.com/search?sca_esv=de93c5c4281f23a7&sxsrf=ACQVn0-LcwT68hla-f6WCwiq8iIb1rGVsA:1714671633209&q=imagens+gratuitas&tbm=isch&source=lnms&prmd=isvnbmtz&sa=X&ved=2ahUKEwj_9-nMwe-FAxUoq5UCHfPPBs4Q0pQJegQIFRAB&biw=1014&bih=560&dpr=1.5">
+        <img src="midia/transferir.jpeg" alt="Imagem clicável">
+    </a>
+</body>
+</html>
