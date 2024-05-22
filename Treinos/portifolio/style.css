@@ -1,34 +1,62 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-
-li {
-    display: block;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-#contato{
-    text-align: center;
-    display: block;
+body{
+    background-color: #000;
+    height: 100vh;
 }
 
-img{
-    height: 10em;
-    width: 10em;
-    border-radius: 50%;
-   
-
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
-body {
-    background: linear-gradient(to bottom, #1a5276, #0e2a47);
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
 }
 
-h1{
-    color:#f5b314;
-    border: ;
-    font-family: "Poetsen One", sans-serif;
+header > .interface{
+    display: flex;
+    align-items: center;
+
+}
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
 }
 
-p{
-    color: #f5e827 ;
+header a :hover{
+    color: #ffff;
+    transform: scale(1.05);
+    display: inline-block;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #1a14f5;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+a img{
+    height: 50px;
+    width: 50px;
 }
