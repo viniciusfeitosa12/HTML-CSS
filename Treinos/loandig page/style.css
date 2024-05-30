@@ -100,19 +100,4 @@ form{
     width: 70%;
 }
 
-form[type="submit"]{
-    height: 50px;
-    width: 50%;
-    background-color: rgb(132, 14, 201);
-    color: white;
-    
-}
 
-input{
-    margin-top: 20px;
-    height: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    border: none;
-    font-size: 20px;
-}
